@@ -1,0 +1,38 @@
+/* Similar Solution Matrix */
+
+.similar-solution-matrix-wrapper {
+	display: flex;
+	margin: 5px 10px;
+	height: 550px;
+}
+
+.similar-solution-matrix {
+	flex: 1;
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+/* Design/Product Specifications and Customer Requirements*/
+
+.design-product-specifications, .customer-requirements {
+	width: 845px;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 0 auto;
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+.design-product-specifications p, .customer-requirements p {
+	margin-top: 0;
+}
+
+.design-product-specifications ul, .customer-requirements ul {
+	list-style: square;
+	margin-bottom: 0;
+}
+
+.design-product-specifications .quantity, .design-product-specifications li, .customer-requirements .requested-problem {
+	font-weight: bold;
+}

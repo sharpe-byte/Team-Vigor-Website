@@ -1,0 +1,264 @@
+/* Problem Statement and Survey Conclusions */
+
+.paragraph-content {
+	text-align: left;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 0 auto;
+	width: 1000px;
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+/* Articles */
+
+.articles-container-row {
+	display: flex;
+	/* gap: 10px; */
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.article-container-column {
+	display: flex;
+	flex-direction: column;
+	width: 600px;
+	border: 3px solid #a38282;
+	border-radius: 5px;
+	background: white;
+	flex: 1;
+	padding: 5px 10px;
+	flex: 0 1 auto;
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+.article-container-column h3 {
+	margin-top: 0;
+}
+
+.article-container-column iframe {
+	height: 300px;
+	border-radius: 5px;
+	border: 3px solid #a38282;
+}
+
+.article-container-column img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	border-radius: 5px;
+	border: 3px solid #a38282;
+}
+
+.article-content {
+	text-align: left;
+}
+
+.article-content p:last-child {
+	margin-bottom: 0;
+} 
+
+.paragraph-heading {
+	font-weight: bold;
+}
+
+/* Proof of the Problem with photos*/
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.cell {
+	flex: 1 1 auto;
+}
+
+.cell img {
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+/* Proof of the Problem with video*/
+.video-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.video-component {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: 3px solid #a38282;
+	border-radius: 5px;
+	background: white;
+	padding: 5px 10px;
+	width: 590px;
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+.video-component iframe {
+	height: 315px;
+	border-radius: 5px;
+	border: 3px solid #a38282;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.video-caption {
+	font-size: 15px; /* font-size: 20px; */
+	text-align: center;
+}
+
+/* Survey */
+
+.survey-datas-container-row {
+	display: flex;
+	gap: 10px;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.survey-data-column {
+	display: flex;
+	width: 700px;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	border: 3px solid #a38282;
+	border-radius: 20px;
+	padding: 5px 10px;
+	background-color: white;
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+.survey-data-column h3 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	border-radius: 20px 20px 0 0;
+}
+
+.survey-data-column img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	margin-bottom: 10px;
+}
+
+.survey-data-column figurecaption {
+	font-size: 15px; /* font-size: 20px; */
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+/* Voice of Customer */
+
+.voice-of-customer-container {
+	width: 845px;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin: 0 auto;
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+.voice-of-customer-container p {
+	margin-top: 0;
+}
+
+.voice-of-customer-container ul {
+	list-style: square;
+	margin-bottom: 0;
+}
+
+.voice-of-customer-container .platform, .voice-of-customer-container .date, .voice-of-customer-container .time {
+	font-weight: bold;
+}
+
+.reddit {
+	color: #FF4500;
+}
+
+.discord {
+	color: #5865F2;
+}
+
+.quora {
+	color: #a82400;
+}
+
+/* Interview */
+
+.interview-components-container {
+	display: flex;
+	/* gap: 10px; */
+	align-items: flex-start;
+	justify-content: space-evenly;
+}
+
+.interview-component {
+	display: flex;
+	flex-direction: column;
+	width: 450px;
+	border: 3px solid #a38282;
+	border-radius: 5px;
+	background: white;
+	flex: 1;
+	padding: 5px 10px;
+	flex: 0 1 auto;
+
+
+	box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+.interview-component h3 {
+	margin-top: 0;
+}
+
+.interview-component img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	border-radius: 5px;
+	border: 3px solid #a38282;
+}
+
+.interview-content ul {
+	list-style: decimal;
+}
+
+.interview-content ul li p {
+	font-weight: bold;
+}
+
+/* Interview Clip */
+
+.interview-audio-clip-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	gap: 10px;
+	background-color: #bdbdbd;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+.audio-clip-heading-title {
+	padding: 5px 10px;
+	margin-bottom: 0;
+}
+
+.interview-audio-clip-container audio {
+	border: 3px solid #a38282;
+	border-radius: 26px;
+}

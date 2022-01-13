@@ -6,6 +6,12 @@
 	box-sizing: border-box;
 }
 
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
 img {
 	max-width: 100%;
 	max-height: 100%;
@@ -181,4 +187,39 @@ footer {
 
 p, figurecaption, ul li {
 	line-height: 1.5;
+}
+
+/* Custom links */
+
+a:link:not(nav a:link) {
+	color: #1749a6;
+	text-decoration: none;
+	position: relative;
+}
+
+a:link:not(nav a:link)::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background-color: currentcolor;
+
+	transform: scaleX(0);
+	transform-origin: right;
+	transition: transform 250ms ease-in;
+}
+
+a:visited:not(nav a:visited) {
+	color: #1749a6;
+}
+
+a:hover:not(nav a:hover)::after {
+	transform: scaleX(1);
+	transform-origin: left;
+}
+
+a:active:not(nav a:active) {
+	
 }

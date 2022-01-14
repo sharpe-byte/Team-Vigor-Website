@@ -57,11 +57,14 @@
 .decision-matrix-wrapper {
 	display: flex;
 	margin: 5px 10px;
-	height: 550px;
+	align-items: center;
+    justify-content: center;
 }
 
 .decision-matrix {
-	flex: 1;
+	height: 589px;
+    width: 880px;
+    border-radius: 5px;
 
 	box-shadow: 0 0 5px 3px #9d9d9d;
 }

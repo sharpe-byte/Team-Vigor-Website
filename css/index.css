@@ -127,11 +127,14 @@
 .gantt-chart-wrapper {
 	display: flex;
 	margin: 5px 10px;
-	height: 550px;
+	align-items: center;
+    justify-content: center;
 }
 
 .gantt-chart {
-	flex: 1;
+	height: 550px;
+    width: 100%;
+    border-radius: 5px;
 
 	box-shadow: 0 0 5px 3px #9d9d9d;
 }

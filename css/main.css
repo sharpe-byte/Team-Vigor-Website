@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 /* Setup */
 
 * {
@@ -159,12 +161,17 @@ iframe {
 
 /* Font */
 
+.container {
+	font-family: 'Open Sans', sans-serif;
+}
+
 nav a:link {
-	font-family: "sans-serif";
+	/* font-family: "sans-serif"; */
+	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3, h4 {
-	font-family: "Georgia";
+	/* font-family: "Georgia"; */
 	padding: 5px 10px;
 }
 
@@ -173,7 +180,7 @@ h1, h2, h3, footer {
 }
 
 ul li, figurecaption, p {
-	font-family: "Helvetica";
+	/* font-family: "Helvetica"; */
 }
 
 footer {

@@ -7,5 +7,5 @@ var readyStateCheckInterval = setInterval(function() {
 
 function showPage() {
 	document.getElementById("preloader").style.display = "none";
-		document.getElementById("page-content").style.display = "block";
+	document.getElementById("page-content").style.display = "block";
 }

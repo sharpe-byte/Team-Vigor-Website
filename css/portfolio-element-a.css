@@ -6,7 +6,7 @@
 	padding: 5px 10px;
 	border-radius: 5px;
 	margin: 0 auto;
-	width: 1000px;
+	width: 845px;
 
 	box-shadow: 0 0 5px 3px #9d9d9d;
 }
@@ -50,10 +50,21 @@
 	object-fit: contain;
 	border-radius: 5px;
 	border: 3px solid #a38282;
+	transition: 0.3s;
+}
+
+.article-container-column img:hover {
+	transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
 }
 
 .article-content {
 	text-align: left;
+}
+
+.article-content p:first-child:not(.spacing-needed) {
+	margin-top: 0;
 }
 
 .article-content p:last-child {

@@ -39,6 +39,10 @@
 	text-align: left;
 }
 
+.patent-component-content p {
+	word-wrap: break-word;
+}
+
 .patent-component-content p:last-child {
 	margin-bottom: 0;
 }

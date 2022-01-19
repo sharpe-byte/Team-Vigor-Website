@@ -54,7 +54,7 @@
 }
 
 .article-container-column img:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: 0.3s;
 }
@@ -163,7 +163,7 @@
   margin-bottom: 10px;
 }
 
-.survey-data-column figurecaption {
+.survey-data-column figcaption {
   font-size: 15px; /* font-size: 20px; */
   text-align: center;
   margin: 0;

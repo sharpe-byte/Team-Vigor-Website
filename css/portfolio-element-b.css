@@ -1,138 +1,138 @@
 /* Patents */
 
 .patent-component-container {
-	display: flex;
-	/* gap: 10px; */
-	align-items: flex-start;
-	justify-content: space-evenly;
+  display: flex;
+  /* gap: 10px; */
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 .patent-component {
-	display: flex;
-	flex-direction: column;
-	width: 450px;
-	border: 3px solid #a38282;
-	border-radius: 5px;
-	background: white;
-	flex: 1;
-	padding: 5px 10px;
-	/* align-items: center; */
-	/* justify-content: center; */
-	flex: 0 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  border: 3px solid #a38282;
+  border-radius: 5px;
+  background: white;
+  flex: 1;
+  padding: 5px 10px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex: 0 1 auto;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 .patent-component h3 {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .patent-component img {
-	width: 100%;
-	height: auto;
-	object-fit: contain;
-	border-radius: 5px;
-	border: 3px solid #a38282;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 5px;
+  border: 3px solid #a38282;
 }
 
 .patent-component-content {
-	text-align: left;
+  text-align: left;
 }
 
 .patent-component-content p {
-	word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .patent-component-content p:last-child {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .paragraph-heading {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /* Products Available in the Current Market with pictures */
 
 .row {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .cell {
-	flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .cell .image-component {
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 .image-component {
-	display: flex;
-	/* width: 450px; */
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
-	border: 3px solid #a38282;
-	border-radius: 20px;
-	padding: 5px 10px;
-	background-color: white;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  /* width: 450px; */
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #a38282;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 .image-component img {
-	width: 100%;
-	height: auto;
-	object-fit: contain;
-	margin-bottom: 10px;
-	border-radius: 20px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }
 
-.image-component figurecaption {
-	font-size: 15px; /* font-size: 20px; */
-	text-align: center;
-	margin: 0;
-	padding: 0;
+.image-component figcaption {
+  font-size: 15px; /* font-size: 20px; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* Products Available in the Current Market with videos */
 
 .video-container {
-	display: flex;
-	align-items: flex-start;
-	justify-content: space-evenly;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
 .video-component {
-	margin: 0;
-	padding: 0;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	border: 3px solid #a38282;
-	border-radius: 5px;
-	background: white;
-	padding: 5px 10px;
-	width: 590px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #a38282;
+  border-radius: 5px;
+  background: white;
+  padding: 5px 10px;
+  width: 590px;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 .video-component iframe {
-	height: 315px;
-	border-radius: 5px;
-	border: 3px solid #a38282;
-	margin: 0;
-	margin-bottom: 10px;
+  height: 315px;
+  border-radius: 5px;
+  border: 3px solid #a38282;
+  margin: 0;
+  margin-bottom: 10px;
 }
 
 .video-caption {
-	font-size: 15px; /* font-size: 20px; */
-	text-align: center;
+  font-size: 15px; /* font-size: 20px; */
+  text-align: center;
 }

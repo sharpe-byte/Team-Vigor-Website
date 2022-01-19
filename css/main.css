@@ -1,232 +1,248 @@
 /* Setup */
 
 * {
-	/* margin: 0;
+  /* margin: 0;
 	padding: 0; */
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 img {
-	max-width: 100%;
-	max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /* Body */
 
 body {
-	background-color: #fdfdfd;
+  background-color: #fdfdfd;
 }
 
 /* Custom Scrollbar */
 
 /* total width */
 body::-webkit-scrollbar {
-    background-color:#fdfdfd;
-    width:16px;
+  background-color: #fdfdfd;
+  width: 16px;
 }
 
 /* background of the scrollbar except button or resizer */
 body::-webkit-scrollbar-track {
-    background-color:#fdfdfd;
+  background-color: #fdfdfd;
 }
 body::-webkit-scrollbar-track:hover {
-    background-color:#f4f4f4;
+  background-color: #f4f4f4;
 }
 
 /* scrollbar itself */
 body::-webkit-scrollbar-thumb {
-    background-color:#babac0;
-    border-radius:16px;
-    border:5px solid #fdfdfd;
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 5px solid #fdfdfd;
 }
 body::-webkit-scrollbar-thumb:hover {
-    background-color:#a0a0a5;
-    border:4px solid #f4f4f4;
+  background-color: #a0a0a5;
+  border: 4px solid #f4f4f4;
 }
 
 /* set button(top and bottom of the scrollbar) */
-body::-webkit-scrollbar-button {display:none;}
-
+body::-webkit-scrollbar-button {
+  display: none;
+}
 
 /* Navigation */
 
 nav {
-	top: 0;
-	left: 0;
-	right: 0;
-	position: fixed;
-	background-color: #416dc0;
-  	border-radius: 0 0 5px 5px;
-	overflow: auto;
-	width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: #416dc0;
+  border-radius: 0 0 5px 5px;
+  overflow: auto;
+  width: 100%;
 }
 
 nav a:link {
-	color: white;
-	text-decoration: none;
-	padding: 14px 16px;
-	display: block;
-	text-align: center;
-	float: left;
-	transition: 0.5s;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  display: block;
+  text-align: center;
+  float: left;
+  transition: 0.5s;
 }
 
 nav a:link:not(nav a:link:nth-child(1)) {
-	float: right;
+  float: right;
 }
 
 nav a:link.left-border {
-	border-left: 1px solid white;
+  border-left: 1px solid white;
 }
 
 nav a:link.right-border {
-	border-right: 1px solid white;
+  border-right: 1px solid white;
 }
 
 nav a:link.current-page {
-	background-color: #c04156;
+  background-color: #c04156;
 }
 
 nav a:visited {
-	color: white;
+  color: white;
 }
 
 nav a:hover:not(.current-page) {
-	background-color: #7598d9;
-	transition: 0.5s;
-    color: black;
-    border-color: white;
+  background-color: #7598d9;
+  transition: 0.5s;
+  color: black;
+  border-color: white;
 }
 
 nav a:active {
-
 }
 
 /* Container */
 
 .container {
-	background-color: #bdbdbd;
-	margin: 5px;
-	padding: 5px;
+  background-color: #bdbdbd;
+  margin: 5px;
+  padding: 5px;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
-	width: 95%;
-	margin: 0 auto;
+  box-shadow: 0 0 5px 3px #9d9d9d;
+  width: 95%;
+  margin: 0 auto;
 }
 
 /* Border */
 
-.container, img, iframe {
-	border: 3px solid #a38282;
+.container,
+img,
+iframe {
+  border: 3px solid #a38282;
 }
 
-.container, h1, h2, h3 {
-	border-radius: 5px;
+.container,
+h1,
+h2,
+h3 {
+  border-radius: 5px;
 }
 
-img, iframe {
-	border-radius: 20px;
+img,
+iframe {
+  border-radius: 20px;
 }
 
-header, h1 {
-	margin: 0;
-	padding: 0;
+header,
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
 /* Background */
 
 h1 {
-	background-color: #1749a6;
+  background-color: #1749a6;
 }
 
 h2 {
-	background-color: #416dc0;
+  background-color: #416dc0;
 }
 
 h3 {
-	background-color: #7598d9;
+  background-color: #7598d9;
 }
 
 iframe {
-	background: white;
+  background: white;
 }
 
 /* Font */
 
 .container {
-	font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 nav a:link {
-	/* font-family: "sans-serif"; */
-	font-family: 'Open Sans', sans-serif;
+  /* font-family: "sans-serif"; */
+  font-family: "Open Sans", sans-serif;
 }
 
-h1, h2, h3, h4 {
-	/* font-family: "Georgia"; */
-	padding: 5px 10px;
+h1,
+h2,
+h3,
+h4 {
+  /* font-family: "Georgia"; */
+  padding: 5px 10px;
 }
 
-h1, h2, h3, footer {
-	text-align: center;
+h1,
+h2,
+h3,
+footer {
+  text-align: center;
 }
 
-ul li, figurecaption, p {
-	/* font-family: "Helvetica"; */
+ul li,
+figcaption,
+p {
+  /* font-family: "Helvetica"; */
 }
 
 footer {
-	font-size: 12px;
-	background-color: white;
-	border-radius: 5px;
-	padding: 5px 10px;
+  font-size: 12px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 /* Line height */
 
-p, figurecaption, ul li {
-	line-height: 1.5;
+p,
+figcaption,
+ul li {
+  line-height: 1.5;
 }
 
 /* Custom links */
 
 a:link:not(nav a:link) {
-	color: #1749a6;
-	text-decoration: none;
-	position: relative;
+  color: #1749a6;
+  text-decoration: none;
+  position: relative;
 }
 
 a:link:not(nav a:link)::after {
-	content: "";
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	height: 2px;
-	background-color: currentcolor;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: currentcolor;
 
-	transform: scaleX(0);
-	transform-origin: right;
-	transition: transform 250ms ease-in;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
 }
 
 a:visited:not(nav a:visited) {
-	color: #1749a6;
+  color: #1749a6;
 }
 
 a:hover:not(nav a:hover)::after {
-	transform: scaleX(1);
-	transform-origin: left;
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
 a:active:not(nav a:active) {
-	
 }

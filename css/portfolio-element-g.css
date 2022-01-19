@@ -1,94 +1,95 @@
 /* Inventor/CAD Drawings */
 
 .row {
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
 }
 
 .cell {
-	flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .cell .image-component {
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 .image-component {
-	display: flex;
-	/* width: 450px; */
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
-	border: 3px solid #a38282;
-	border-radius: 20px;
-	padding: 5px 10px;
-	background-color: white;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  /* width: 450px; */
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  border: 3px solid #a38282;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 .image-component img {
-	width: 100%;
-	height: auto;
-	object-fit: contain;
-	margin-bottom: 10px;
-	border-radius: 20px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 10px;
+  border-radius: 20px;
 }
 
-.image-component figurecaption {
-	font-size: 15px; /* font-size: 20px; */
-	text-align: center;
-	margin: 0;
-	padding: 0;
+.image-component figcaption {
+  font-size: 15px; /* font-size: 20px; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* Bill of Materials */
 
 .bill-of-materials {
-	width: 845px;
-	background-color: white;
-	padding: 5px 10px;
-	border-radius: 5px;
-	margin: 0 auto;
+  width: 845px;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 auto;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }
 
 .bill-of-materials p {
-	margin-top: 0;
+  margin-top: 0;
 }
 
 .bill-of-materials ul {
-	list-style: square;
-	margin-bottom: 0;
+  list-style: square;
+  margin-bottom: 0;
 }
 
 .bill-of-materials li {
-	/* font-weight: bold; */
+  /* font-weight: bold; */
 }
 
-.quantity, .price {
-	font-weight: bold;
+.quantity,
+.price {
+  font-weight: bold;
 }
 
 .price {
-	color: #85bb65;
+  color: #85bb65;
 }
 
 /* Picture Documentation of Build and Maker Process */
 
 .paragraph-content {
-	text-align: left;
-	background-color: white;
-	padding: 5px 10px;
-	border-radius: 5px;
-	margin: 0 auto;
-	width: 845px;
+  text-align: left;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 845px;
 
-	box-shadow: 0 0 5px 3px #9d9d9d;
+  box-shadow: 0 0 5px 3px #9d9d9d;
 }

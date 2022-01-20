@@ -1,5 +1,41 @@
 /* Inventor/CAD Drawings */
 
+.inventor-CAD_drawing-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inventor-CAD_drawing-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid #a38282;
+  border-radius: 5px;
+  background: white;
+  padding: 5px 10px;
+
+  box-shadow: 0 0 5px 3px #9d9d9d;
+}
+
+.inventor-CAD_drawing-component img {
+  height: 550px;
+  width: auto;
+  border-radius: 5px;
+  border: 3px solid #a38282;
+  margin: 0;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.inventor-CAD_drawing-component figcaption {
+  font-size: 15px; /* font-size: 20px; */
+  text-align: center;
+}
+
+/* Bill of Materials */
+
 .row {
   display: flex;
   flex-direction: row;
@@ -46,8 +82,6 @@
   margin: 0;
   padding: 0;
 }
-
-/* Bill of Materials */
 
 .bill-of-materials {
   width: 845px;

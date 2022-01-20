@@ -131,7 +131,10 @@
 .gallery-container {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.gap-needed {
   gap: 10px;
 }
 
@@ -140,7 +143,7 @@
 }
 
 .gallery-container figure img {
-  width: 450px;
+  width: 350px;
   height: auto;
   object-fit: contain;
 }
